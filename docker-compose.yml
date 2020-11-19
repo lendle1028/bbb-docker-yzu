@@ -1,0 +1,11 @@
+version: "3"
+   
+services:
+  bbb:
+    image: bbb-docker:latest
+    ports:
+      - "2080:80"
+      - "2443:443"
+    privileged: true
+    volumes:
+      - "/sys/fs/cgroup:/sys/fs/cgroup:ro"
