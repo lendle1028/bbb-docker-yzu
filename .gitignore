@@ -1,0 +1,11 @@
+greenlight_yzu/db/*.sqlite3
+greenlight_yzu/db/*.sqlite3-journal
+greenlight_yzu/db/production
+greenlight_yzu/db/production-postgres
+greenlight_yzu/log/*
+greenlight_yzu/tmp
+greenlight_yzu!/log/.keep
+.idea
+.idea/**
+.vscode
+.vscode/**
