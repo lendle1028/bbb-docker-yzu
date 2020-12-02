@@ -4,7 +4,7 @@ services:
   bbb:
 #    image: bbb-docker:latest
 #    build: ../
-    image: lendletseng/bbb-docker:latest
+    image: lendletseng/bbb-docker:release-v1.1
     ports:
       - "2080:80"
       - "2443:443"
@@ -16,11 +16,10 @@ services:
       default:
         ipv4_address: 10.0.0.2
   app:
-    entrypoint: [bin/start]
-    image: lendletseng/greenlight_yzu:latest
+    image: lendletseng/greenlight_yzu:release-v1.1
     container_name: greenlight_yzu
     env_file: .env
-    restart: unless-stopped
+    restart: "unless-stopped"
     ports:
       - 127.0.0.1:5000:80
     networks:
