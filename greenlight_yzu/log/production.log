@@ -195,3 +195,60 @@ INFO: [a87f5a74-3f82-4278-81b6-0e8d392d01aa] [ActiveJob] Enqueued NotifyUserWait
 INFO: [a87f5a74-3f82-4278-81b6-0e8d392d01aa] method=POST path=/b/len-k46-joh-alo/start format=html controller=RoomsController action=start status=302 duration=1085.09 view=0.00 db=25.86 location=https://bbb.imsofa.rocks/bigbluebutton/api/join host=greenlight 
 INFO: [ActiveJob] [NotifyUserWaitingJob] [22b7c23e-c7bc-469b-9463-22969038f9f7] Performing NotifyUserWaitingJob (Job ID: 22b7c23e-c7bc-469b-9463-22969038f9f7) from Async(default) with arguments: #<GlobalID:0x000055fe26db3f38 @uri=#<URI::GID gid://greenlight/Room/1>> 
 INFO: [ActiveJob] [NotifyUserWaitingJob] [22b7c23e-c7bc-469b-9463-22969038f9f7] Performed NotifyUserWaitingJob (Job ID: 22b7c23e-c7bc-469b-9463-22969038f9f7) from Async(default) in 2.91ms 
+INFO: [c5a166f3-6113-4ba8-975a-aea540baa180] method=GET path=/b/ format=html controller=MainController action=index status=302 duration=154.74 view=0.00 db=24.98 location=http://localhost:5000/b/len-k46-joh-alo host=greenlight 
+ERROR: [0848b45b-20b8-46be-9e65-f0bd34388a3b] BigBlueButtonException: Connection error. Your URL is probably incorrect: "https://bbb.imsofa.rocks/bigbluebutton/api". Error: Failed to open TCP connection to bbb.imsofa.rocks:443 (Connection refused - connect(2) for "bbb.imsofa.rocks" port 443) 
+INFO: [0848b45b-20b8-46be-9e65-f0bd34388a3b] method=GET path=/b/len-k46-joh-alo format=html controller=RoomsController action=show status=200 duration=241.53 view=67.72 db=3.42 host=greenlight 
+ERROR: [b67e620d-581f-4687-9506-3fac79ed74fc] BigBlueButtonException: Connection error. Your URL is probably incorrect: "https://bbb.imsofa.rocks/bigbluebutton/api". Error: Failed to open TCP connection to bbb.imsofa.rocks:443 (Connection refused - connect(2) for "bbb.imsofa.rocks" port 443) 
+INFO: [b67e620d-581f-4687-9506-3fac79ed74fc] method=GET path=/b/len-k46-joh-alo format=html controller=RoomsController action=show status=200 duration=107.76 view=16.58 db=3.34 host=greenlight 
+ERROR: [664aae16-3173-49f1-a14c-8f98387d172f] BigBlueButtonException: Impossible to convert XML to hash. Error: Missing end tag for 'hr' (got 'body')
+Line: 6
+Position: 167
+Last 80 unconsumed characters:
+ 
+INFO: [664aae16-3173-49f1-a14c-8f98387d172f] method=GET path=/b/len-k46-joh-alo format=html controller=RoomsController action=show status=200 duration=153.18 view=42.14 db=8.38 host=greenlight 
+ERROR: [dc7bf175-2851-4898-a0f6-33f9269aca4e] BigBlueButtonException: Impossible to convert XML to hash. Error: Missing end tag for 'hr' (got 'body')
+Line: 6
+Position: 167
+Last 80 unconsumed characters:
+ 
+INFO: [dc7bf175-2851-4898-a0f6-33f9269aca4e] method=GET path=/b/len-k46-joh-alo format=html controller=RoomsController action=show status=200 duration=69.91 view=23.81 db=7.02 host=greenlight 
+INFO: [0dd478b2-6680-4a83-889f-7f0766ae2802] method=GET path=/b/len-k46-joh-alo format=html controller=RoomsController action=show status=200 duration=923.14 view=44.66 db=13.48 host=greenlight 
+INFO: [5d73a7d9-594e-4743-94fc-1ccd349b3f4d] Support: lendle_tseng@seed.net.tw is starting room len-k46-joh-alo 
+INFO: [5d73a7d9-594e-4743-94fc-1ccd349b3f4d] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: dfed46c0-86d7-4aed-bacf-5e9568ab16a0) to Async(default) at 2020-12-07 04:27:37 UTC with arguments: #<GlobalID:0x000055933ca48b78 @uri=#<URI::GID gid://greenlight/Room/1>> 
+INFO: [5d73a7d9-594e-4743-94fc-1ccd349b3f4d] method=POST path=/b/len-k46-joh-alo/start format=html controller=RoomsController action=start status=302 duration=990.93 view=0.00 db=21.81 location=https://bbb.imsofa.rocks/bigbluebutton/api/join host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [dfed46c0-86d7-4aed-bacf-5e9568ab16a0] Performing NotifyUserWaitingJob (Job ID: dfed46c0-86d7-4aed-bacf-5e9568ab16a0) from Async(default) with arguments: #<GlobalID:0x000055933c34a948 @uri=#<URI::GID gid://greenlight/Room/1>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [dfed46c0-86d7-4aed-bacf-5e9568ab16a0] Performed NotifyUserWaitingJob (Job ID: dfed46c0-86d7-4aed-bacf-5e9568ab16a0) from Async(default) in 2.54ms 
+INFO: [06c0b62a-6a40-4675-a3ad-d7ed697ad64d] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=50.21 view=27.25 db=8.05 host=greenlight 
+INFO: [417dbbef-5dd8-4193-aaa9-a7576194b3c7] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=48.41 view=29.59 db=2.61 host=greenlight 
+INFO: [36ddd95d-4461-4723-b5d0-549519363a33] Support: lendle.tseng.archive@gmail.com is attempting to login. 
+INFO: [36ddd95d-4461-4723-b5d0-549519363a33] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=9.37 view=0.00 db=1.61 location=http://localhost:5000/b/signin host=greenlight 
+INFO: [9af02885-190d-4880-add9-342dc7729de6] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=22.63 view=16.54 db=0.83 host=greenlight 
+INFO: [afbb0ead-f3ca-444f-8933-aee405a25ff6] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=42.43 view=25.32 db=2.27 host=greenlight 
+INFO: [92f2e4c4-7a66-4abe-b228-24e821f36f06] method=GET path=/b/signup format=html controller=SessionsController action=new status=200 duration=25.70 view=18.47 db=0.87 host=greenlight 
+INFO: [325e5e52-1791-41f7-9ab4-21c97fb56d25] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=28.05 view=21.28 db=0.84 host=greenlight 
+INFO: [b681783d-6926-4042-b51e-821d204afef4] Support: lendle.tseng@gmail.com is attempting to login. 
+INFO: [b681783d-6926-4042-b51e-821d204afef4] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=21.91 view=0.00 db=3.66 location=http://localhost:5000/b/signin host=greenlight 
+INFO: [968c8ae0-6d2d-4f6b-b243-b331c548fedc] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=24.10 view=14.71 db=1.60 host=greenlight 
+INFO: [a50d0a0e-b5a9-475b-a443-b3b227f7cca8] Support: lendle.tseng@gmail.com is attempting to login. 
+INFO: [a50d0a0e-b5a9-475b-a443-b3b227f7cca8] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=21.80 view=0.00 db=3.38 location=http://localhost:5000/b/signin host=greenlight 
+INFO: [730cf323-3bdd-4882-8288-dea2c76e8e3d] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=19.83 view=14.06 db=0.74 host=greenlight 
+INFO: [cb0c95ff-dbad-4bad-a5a9-a35013d8121c] Support: lendle.tseng@gmail.com is attempting to login. 
+INFO: [cb0c95ff-dbad-4bad-a5a9-a35013d8121c] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=24.39 view=0.00 db=6.41 location=http://localhost:5000/b/signin host=greenlight 
+INFO: [e564af2b-3f62-4020-81ae-fa2ed7916cf6] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=26.50 view=19.03 db=0.82 host=greenlight 
+INFO: [3ed0fbc4-f5ba-4b87-88e5-09f6406b1e2e] method=GET path=/b/signup format=html controller=SessionsController action=new status=200 duration=59.34 view=43.03 db=1.81 host=greenlight 
+INFO: [6939aafb-ecfc-45bf-b092-d6a52036816a] Support: lendle.tseng@gmail.com user has been created. 
+INFO: [6939aafb-ecfc-45bf-b092-d6a52036816a] Support: lendle.tseng@gmail.com has successfully logged in. 
+INFO: [6939aafb-ecfc-45bf-b092-d6a52036816a] method=POST path=/b/signup format=html controller=UsersController action=create status=302 duration=387.35 view=0.00 db=42.17 location=http://localhost:5000/b/signin/ host=greenlight 
+INFO: [3412c483-40b3-4d3b-97fa-a43dd1c65d50] method=GET path=/b/signin format=html controller=SessionsController action=signin status=302 duration=8.01 view=0.00 db=1.60 location=http://localhost:5000/b/len-on8-two-i77 host=greenlight 
+INFO: [1de60345-e810-4c26-8e8f-11b590bd90af] method=GET path=/b/len-on8-two-i77 format=html controller=RoomsController action=show status=200 duration=1074.37 view=77.79 db=9.16 host=greenlight 
+INFO: [c893ea60-2ff8-410b-86e4-e1b9fb8129a0] Support: lendle.tseng@gmail.com is starting room len-on8-two-i77 
+INFO: [c893ea60-2ff8-410b-86e4-e1b9fb8129a0] [ActiveJob] Enqueued NotifyUserWaitingJob (Job ID: e4ef2c4c-7a08-4711-9efe-1298cad192a1) to Async(default) at 2020-12-08 03:01:53 UTC with arguments: #<GlobalID:0x000055933ccabcf8 @uri=#<URI::GID gid://greenlight/Room/2>> 
+INFO: [c893ea60-2ff8-410b-86e4-e1b9fb8129a0] method=POST path=/b/len-on8-two-i77/start format=html controller=RoomsController action=start status=302 duration=1084.23 view=0.00 db=58.11 location=https://bbb.imsofa.rocks/bigbluebutton/api/join host=greenlight 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [e4ef2c4c-7a08-4711-9efe-1298cad192a1] Performing NotifyUserWaitingJob (Job ID: e4ef2c4c-7a08-4711-9efe-1298cad192a1) from Async(default) with arguments: #<GlobalID:0x000055933ccf2270 @uri=#<URI::GID gid://greenlight/Room/2>> 
+INFO: [ActiveJob] [NotifyUserWaitingJob] [e4ef2c4c-7a08-4711-9efe-1298cad192a1] Performed NotifyUserWaitingJob (Job ID: e4ef2c4c-7a08-4711-9efe-1298cad192a1) from Async(default) in 0.33ms 
+INFO: [0448827a-b67e-4790-ae20-3cb4b2ee03de] method=GET path=/b/ format=html controller=MainController action=index status=200 duration=146.62 view=100.45 db=12.61 host=greenlight 
+INFO: [5c99387c-39c3-4189-a78c-d6a860dc2a77] method=GET path=/b/signin format=html controller=SessionsController action=signin status=200 duration=49.82 view=29.90 db=2.20 host=greenlight 
+INFO: [714c5426-78d1-4e8a-88f1-13be3b8dd18c] Support: lendle.tseng@gmail.com is attempting to login. 
+INFO: [714c5426-78d1-4e8a-88f1-13be3b8dd18c] Support: lendle.tseng@gmail.com has successfully logged in. 
+INFO: [714c5426-78d1-4e8a-88f1-13be3b8dd18c] method=POST path=/b/u/login format=html controller=SessionsController action=create status=302 duration=338.60 view=0.00 db=13.08 location=http://localhost:5000/b/len-on8-two-i77 host=greenlight 
+INFO: [f749f904-9850-4494-a286-130cbb69512b] method=GET path=/b/len-on8-two-i77 format=html controller=RoomsController action=show status=200 duration=735.37 view=41.16 db=16.80 host=greenlight 
